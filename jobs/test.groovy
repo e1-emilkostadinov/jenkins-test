@@ -17,7 +17,7 @@ pipelineJob('custom-repo-test') {
                         url('https://github.com/e1-emilkostadinov/jenkins-test.git')
                         credentials('jenkins-operator')
                     }
-                    branches('*/master')
+                    branches('*/main')
                 }
             }
             scriptPath('Jenkinsfile')
